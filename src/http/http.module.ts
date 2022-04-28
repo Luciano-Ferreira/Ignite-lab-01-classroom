@@ -9,7 +9,7 @@ import { CoursesResolver } from './graphql/resolvers/courses.resolver';
 import { EnrollmentsResolver } from './graphql/resolvers/enrollments.resolver';
 import { StudentsResolver } from './graphql/resolvers/students.resolver';
 import { CoursesService } from '../services/courses.service';
-import { EnrollmentService } from '../services/enrollments.service';
+import { EnrollmentsService } from '../services/enrollments.service';
 import { StudentsService } from '../services/students.service';
 
 @Module({
@@ -29,7 +29,7 @@ import { StudentsService } from '../services/students.service';
 
     // Services
     CoursesService,
-    EnrollmentService,
+    EnrollmentsService,
     StudentsService,
   ],
 })

@@ -10,7 +10,7 @@ type Course {
 
 type Student {
   id: ID!
-  enrollment: [Enrollment!]!
+  enrollments: [Enrollment!]!
 }
 
 type Enrollment {
